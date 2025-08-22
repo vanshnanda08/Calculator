@@ -1,0 +1,44 @@
+body {
+  background-color: black;
+}
+
+.grid-buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 70px);
+}
+
+.but,
+.clear-but {
+  background-color: rgb(51, 51, 51);
+  color: white;
+  font-size: 26px;
+  border-radius: 30px;
+  height: 60px;
+  width: 60px;
+  margin: 8px 5px;
+  border: none;
+}
+
+.signs {
+  background-color: rgb(254, 160, 10);
+  color: white;
+  font-size: 26px;
+  border-radius: 30px;
+  height: 60px;
+  width: 60px;
+  margin: 8px 5px;
+  border: none;
+}
+
+.clear-but {
+  font-size: 18px;
+}
+
+.input-box {
+  color: white;
+  background-color: black;
+  border: none;
+  height: 50px;
+  width: 280px;
+  font-size: 40px;
+}
